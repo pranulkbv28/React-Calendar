@@ -1,0 +1,58 @@
+.showOnlyUl {
+  list-style: none;
+}
+
+/* Hide the default checkbox */
+.showOnlyUl input[type="checkbox"] {
+  display: none;
+}
+
+/* Create a custom checkbox */
+.showOnlyUl input[type="checkbox"] + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+.showOnlyUl input[type="checkbox"] + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #000;
+}
+
+/* Style the custom checkbox when checked */
+.showOnlyUl input[type="checkbox"] + label:before {
+  background-color: #4caf4f76; /* Green */
+}
+
+.showOnlyUl .red input[type="checkbox"] + label:before {
+  background-color: #f443367c; /* Red */
+}
+
+.showOnlyUl .purple input[type="checkbox"] + label:before {
+  background-color: #9b27b064; /* Purple */
+}
+
+.showOnlyUl .yellow input[type="checkbox"] + label:before {
+  background-color: #ffeb3b64; /* Yellow */
+}
+
+.showOnlyUl input[type="checkbox"]:checked + label:before {
+  background-color: #4caf50; /* Green */
+}
+
+.showOnlyUl .red input[type="checkbox"]:checked + label:before {
+  background-color: #f44336; /* Red */
+}
+
+.showOnlyUl .purple input[type="checkbox"]:checked + label:before {
+  background-color: #9c27b0; /* Purple */
+}
+
+.showOnlyUl .yellow input[type="checkbox"]:checked + label:before {
+  background-color: #ffeb3b; /* Yellow */
+}

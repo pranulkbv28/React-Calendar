@@ -1,0 +1,30 @@
+.component-2 .rbc-calendar {
+  width: 75%;
+  height: 250px !important;
+  font-size: small;
+}
+.component-2 .rbc-toolbar {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.component-2 .rbc-off-range-bg {
+  background-color: inherit;
+}
+
+.component-2 .rbc-today {
+  background-color: #f3f4f6; /* light gray */
+}
+
+.component-2 .rbc-calendar div {
+  border: none !important;
+}
+
+.component-2 .rbc-date-cell {
+  text-align: center;
+}
+.component-2 .rbc-button-link {
+  cursor: no-drop;
+  font-size: small;
+}

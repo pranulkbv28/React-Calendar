@@ -1,0 +1,47 @@
+.rbc-calendar {
+  width: 100%;
+}
+
+/* days of the week */
+.component-1 .rbc-month-header {
+  padding: 6px;
+}
+.component-1 .rbc-header {
+  border-width: 0px;
+  border-left: none !important;
+  text-align: center;
+  border-right: none;
+  width: 10%;
+}
+.component-1 .rbc-header > span {
+  padding: 8px 30% !important;
+  background-color: rgba(128, 128, 128, 0.466);
+  border: none;
+  border-radius: 12px;
+}
+
+/* date cells */
+.component-1 .rbc-date-cell {
+  position: relative;
+}
+.component-1 .rbc-button-link {
+  position: absolute;
+  left: 0;
+  background-color: rgba(128, 128, 128, 0.497) !important;
+  padding: 4px 8px 8px 4px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  justify-content: flex-start;
+  font-size: x-small;
+}
+
+/* event */
+.component-1 .rbc-row-segment {
+  display: flex;
+  justify-content: right;
+}
+.component-1 .rbc-event {
+  width: 40%;
+  text-align: right;
+  font-size: x-small;
+}
